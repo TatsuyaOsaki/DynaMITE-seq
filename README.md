@@ -1,4 +1,4 @@
-# # scRNAseq and Cellchat R script for M. Campisi et al.2025 DynaMITE-seq
+## scRNAseq and Cellchat R script for M. Campisi et al.2025 DynaMITE-seq
 Repository for the code that was used to process and analyze data collected for "Integrative profiling of primary and microphysiological tumor environments unveils a STING-mediated vascular checkpoint modulating NK cell immunity", M. Campisi et al.2025  
 
 
