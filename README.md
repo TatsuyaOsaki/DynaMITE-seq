@@ -1,15 +1,15 @@
-## R script for M. Campisi et al. Cancer Cell, 44, 1-21 (2026) 
+# R script for M. Campisi et al. Cancer Cell, 44, 1-21 (2026) 
 Repository for the code that was used to process and analyze data collected for "Vascular STING activation facilitates NK cell anti-tumor immunity in small cell lung cancer", M. Campisi et al. Cancer Cell, 44, 1-21 (2026) 
 
 ------------------------------------------------------------------------
 
-# scRNAseq analysis: DynaMITE-seq Single-Cell and Spatial Integration Pipeline
+## scRNAseq analysis: DynaMITE-seq Single-Cell and Spatial Integration Pipeline
 
 This repository contains a structured analysis workflow for processing
 and integrating **DynaMITE-seq single-cell RNA-seq data** with spatial
 transcriptomics and downstream pathway enrichment analysis.
 
-# Workflow Overview
+## Workflow Overview
 
 The pipeline is organized into three sequential Jupyter notebooks:
 
@@ -110,7 +110,6 @@ Comparative analysis of cell–cell communication between biological conditions.
 This notebook enables mechanistic interpretation of condition-dependent communication changes.
 
 ---
-
 ## Pipeline Structure
 
 Raw scRNA-seq  
@@ -121,8 +120,7 @@ Raw scRNA-seq
 → Differential Communication Analysis (5)  
 
 # Visium analysis
-## Visium Spatial Transcriptomics & Neighborhood Analysis Workflow (Ver1)
-
+## Visium Spatial Transcriptomics & Neighborhood Analysis Workflow
 This directory contains a structured, stepwise spatial transcriptomics analysis pipeline implemented in Seurat and downstream R-based workflows. The files document preprocessing, annotation refinement, pathway scoring, neighborhood feature extraction, visualization, and differential analysis.
 
 ---
@@ -206,9 +204,11 @@ R session command history (local analysis record).
 6. Neighborhood interaction modeling and visualization  
 
 This workflow supports integrated tumor–vascular spatial analysis, pathway-level interpretation, and microenvironmental neighborhood modeling.
+------------------------------------------------------------------------
+
 ```
 Marco Campisi1, Tatsuya Osaki2†, Ian Dryg3,4†, Carla Stornante1,5, Jacqueline Wolff3, Jason Weirather3,4, Nicholas Weaver3, Mubin Tarannum1, Ian Gillanders1, Alan Bers1, Eden Bobilev1, Maia Shea Lineberry1, Pieter Schol1#, Minyue Chen1#, Keiichi Ota1, Sung Rye Park6, Caroline G. Fahey1,7, Tran C. Thai1, Yixiang Li1, Zhaorong Li1, Ze-Hua Li1, Sarah Shelton8, Satomi Hirose9, Clare Padrick1,10, Elena Ivanova1,10, Minh Ha1,10, Shaobo Yang1, Harrison Olszewski3, Sophie Kivlehan1,10, Patrick Lizotte1,10, Kelsey Hagen1,10, Iliana Gjeci1,10, William Haller1,10, Lauren M. Zasadil1,10, Talal El Zarif1, Jacob E. Berchuck11, Erik H. Knelson1#, Elliott J. Brea1,12, Igor Odintsov13, Tianju Liu14, Valeria Chiono5, Bishma Tuladhar1,10, Kenneth Ngo1,10, Emily Rosentrater15, Jeffrey Raizer15, Neil Lineberry15, Mriganka Sur2, Kathleen Pfaff3, Matthew Freedman1, F. Stephen Hodi1,3, Michael Y. Tolstorukov6, Matthew G. Oser1, Michal Sheffer1, Constantine S. Mitsiades1,16,17,18, Michael J. Barnes19, Vicky A. Appleman15, Prafulla C. Gokhale1,10, Roger D. Kamm8,9, Cloud P. Paweletz1,10, Rizwan Romee1,20, Scott Rodig3,13, David A. Barbie1,10,12,16,20*, Navin R. Mahadevan1,13,14*
-```
+
 Vascular STING activation facilitates NK cell anti-tumor immunity in small cell lung cancer", M. Campisi et al. Cancer Cell, 44, 1-21 (2026) 
 
 ------------------------------------------------------------------------
