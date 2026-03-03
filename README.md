@@ -4,7 +4,66 @@ Repository for the code that was used to process and analyze data collected for 
 
 ## scRNAseq analysis
 
+DynaMITE-seq Single-Cell and Spatial Integration Pipeline
 
+This repository contains a structured analysis workflow for processing and integrating DynaMITE-seq single-cell RNA-seq data with spatial transcriptomics and downstream pathway enrichment analysis.
+
+The workflow is organized into three sequential Jupyter notebooks:
+
+1. 1.scRNAseq_DynaMITEseq.ipynb
+
+Purpose:
+Preprocessing and analysis of DynaMITE-seq single-cell RNA-seq data.
+
+Main steps may include:
+
+Quality control (filtering low-quality cells and genes)
+
+Normalization and scaling
+
+Dimensionality reduction (PCA, UMAP)
+
+Clustering
+
+Cell type annotation
+
+Differential gene expression analysis
+
+This notebook generates the processed AnnData object used for downstream integration.
+
+2. 2. Integrate to Visim.ipynb
+
+Purpose:
+Integration of processed single-cell data with spatial transcriptomics (Visium).
+
+Main steps may include:
+
+Data harmonization between scRNA-seq and spatial datasets
+
+Anchor-based or label transfer integration
+
+Cell-type mapping onto spatial coordinates
+
+Visualization of spatial gene expression and cell distributions
+
+This notebook bridges cellular resolution data with spatial context.
+
+3. 3. ssGSEA_DynaMITEseq.ipynb
+
+Purpose:
+Single-sample Gene Set Enrichment Analysis (ssGSEA) on processed data.
+
+Main steps may include:
+
+Gene set selection (e.g., MSigDB, curated pathways)
+
+ssGSEA score computation
+
+Pathway activity comparison across clusters or conditions
+
+Visualization of enrichment patterns
+
+This step provides pathway-level interpretation of transcriptomic differences.
 
 ## Cell chat analysis
 
