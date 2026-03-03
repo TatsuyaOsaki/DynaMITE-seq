@@ -15,45 +15,50 @@ transcriptomics and downstream pathway enrichment analysis.
 
 The pipeline is organized into three sequential Jupyter notebooks:
 
-#### 1. `1.scRNAseq_DynaMITEseq.ipynb`
+#### 1. scRNAseq_DynaMITEseq.ipynb
 
-**Purpose:**\
+### Purpose:
 Preprocessing and analysis of DynaMITE-seq single-cell RNA-seq data.
 
-**Main steps include:** - Quality control (filtering low-quality cells
-and genes) - Normalization and scaling - Dimensionality reduction (PCA,
-UMAP) - Clustering - Cell type annotation - Differential gene expression
-analysis
+### Main steps 
+- Quality control (filtering low-quality cells and genes)
+- Normalization and scaling
+- Dimensionality reduction (PCA, UMAP)
+- Clustering
+- Cell type annotation
+- Differential gene expression analysis
 
 This notebook generates the processed dataset used for downstream
 integration.
 
 ------------------------------------------------------------------------
 
-#### 2. `2. Integrate to Visim.ipynb`
+#### 2. Integrate to Visim.ipynb
 
-**Purpose:**\
+### Purpose:
 Integration of processed single-cell data with spatial transcriptomics
 (Visium).
 
-**Main steps include:** - Data harmonization between scRNA-seq and
-spatial datasets - Label transfer or anchor-based integration - Mapping
-cell types to spatial coordinates - Visualization of spatial gene
-expression patterns
+### Main steps 
+- Data harmonization between scRNA-seq and spatial datasets
+- Label transfer or anchor-based integration
+- Mapping cell types to spatial coordinates
+- Visualization of spatial gene expression patterns
 
 This step links cellular transcriptomic resolution with spatial context.
 
 ------------------------------------------------------------------------
 
-#### 3. `3. ssGSEA_DynaMITEseq.ipynb`
+#### 3.ssGSEA_DynaMITEseq.ipynb
 
-**Purpose:**\
+### Purpose:
 Single-sample Gene Set Enrichment Analysis (ssGSEA).
 
-**Main steps include:** - Selection of curated gene sets (e.g., pathway
-databases) - Calculation of ssGSEA enrichment scores - Comparison of
-pathway activity across clusters or conditions - Visualization of
-enrichment patterns
+### Main steps 
+- Selection of curated gene sets (e.g., pathway databases)
+- Calculation of ssGSEA enrichment scores
+- Comparison of pathway activity across clusters or conditions
+- Visualization of enrichment patterns
 
 This notebook provides pathway-level functional interpretation.
 
@@ -68,9 +73,7 @@ Raw scRNA-seq\
 
 # Cell chat analysis
 
-## 4. `4. Cellchat_compute_interaction.ipynb`
-
-**Version:** Ver1.1  
+## 4. Cellchat_compute_interaction.ipynb
 
 ### Purpose
 Inference of cell–cell communication networks using CellChat.
