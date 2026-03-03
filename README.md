@@ -11,11 +11,11 @@ transcriptomics and downstream pathway enrichment analysis.
 
 ------------------------------------------------------------------------
 
-### Workflow Overview
+# Workflow Overview
 
 The pipeline is organized into three sequential Jupyter notebooks:
 
-#### 1. scRNAseq_DynaMITEseq.ipynb
+## 1. scRNAseq_DynaMITEseq.ipynb
 
 ### Purpose:
 Preprocessing and analysis of DynaMITE-seq single-cell RNA-seq data.
@@ -33,7 +33,7 @@ integration.
 
 ------------------------------------------------------------------------
 
-#### 2. Integrate to Visim.ipynb
+## 2. Integrate to Visim.ipynb
 
 ### Purpose:
 Integration of processed single-cell data with spatial transcriptomics
@@ -47,9 +47,8 @@ Integration of processed single-cell data with spatial transcriptomics
 
 This step links cellular transcriptomic resolution with spatial context.
 
-------------------------------------------------------------------------
 
-#### 3.ssGSEA_DynaMITEseq.ipynb
+## 3.ssGSEA_DynaMITEseq.ipynb
 
 ### Purpose:
 Single-sample Gene Set Enrichment Analysis (ssGSEA).
@@ -62,14 +61,14 @@ Single-sample Gene Set Enrichment Analysis (ssGSEA).
 
 This notebook provides pathway-level functional interpretation.
 
-------------------------------------------------------------------------
-
 ### Pipeline Structure
 
 Raw scRNA-seq\
 → QC & Clustering\
 → Spatial Integration\
 → Pathway Enrichment
+
+------------------------------------------------------------------------
 
 # Cell chat analysis
 
