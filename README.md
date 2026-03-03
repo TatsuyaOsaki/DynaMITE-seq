@@ -1,7 +1,7 @@
 # R script for M. Campisi et al. Cancer Cell, 44, 1-21 (2026) 
 Repository for the code that was used to process and analyze data collected for "Vascular STING activation facilitates NK cell anti-tumor immunity in small cell lung cancer", M. Campisi et al. Cancer Cell, 44, 1-21 (2026) 
 
-------------------------------------------------------------------------
+
 
 ## scRNAseq analysis: DynaMITE-seq Single-Cell and Spatial Integration Pipeline
 
@@ -29,7 +29,6 @@ Preprocessing and analysis of DynaMITE-seq single-cell RNA-seq data.
 This notebook generates the processed dataset used for downstream
 integration.
 
-------------------------------------------------------------------------
 
 ## 2. Integrate to Visim.ipynb
 
@@ -44,7 +43,6 @@ Integration of processed single-cell data with spatial transcriptomics
 - Visualization of spatial gene expression patterns
 
 This step links cellular transcriptomic resolution with spatial context.
-
 
 ## 3.ssGSEA_DynaMITEseq.ipynb
 
@@ -66,7 +64,7 @@ Raw scRNA-seq\
 → Spatial Integration\
 → Pathway Enrichment
 
-------------------------------------------------------------------------
+
 ## Cell chat analysis
 
 ## 4. Cellchat_compute_interaction.ipynb
