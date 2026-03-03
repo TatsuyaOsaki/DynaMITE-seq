@@ -65,10 +65,65 @@ Raw scRNA-seq\
 → QC & Clustering\
 → Spatial Integration\
 → Pathway Enrichment
-## Cell chat analysis
 
+# Cell chat analysis
 
-## Visium analysis
+## 4. `4. Cellchat_compute_interaction.ipynb`
+
+**Version:** Ver1.1  
+
+### Purpose
+Inference of cell–cell communication networks using CellChat.
+
+### Main Steps
+- Construction of CellChat object from processed single-cell or spatial data  
+- Identification of ligand–receptor interaction pairs  
+- Calculation of communication probability scores  
+- Aggregation of signaling pathways  
+- Network visualization (interaction strength, outgoing/incoming signaling roles)  
+
+### Output
+- Cell–cell interaction matrices  
+- Pathway-specific signaling networks  
+- Network centrality metrics (sender/receiver/modulator roles)  
+
+This notebook quantitatively models intercellular communication based on curated ligand–receptor databases.
+
+---
+
+## 5. `5. Cellchat_differential_analysis.ipynb`
+
+**Version:** Ver1.1  
+
+### Purpose
+Comparative analysis of cell–cell communication between biological conditions.
+
+### Main Steps
+- Merging CellChat objects across conditions (e.g., control vs disease)  
+- Differential interaction strength analysis  
+- Identification of altered signaling pathways  
+- Comparative network topology assessment  
+- Visualization of gained/lost signaling interactions  
+
+### Output
+- Differential ligand–receptor interactions  
+- Condition-specific pathway activity shifts  
+- Network-level rewiring metrics  
+
+This notebook enables mechanistic interpretation of condition-dependent communication changes.
+
+---
+
+## Updated Pipeline Structure
+
+Raw scRNA-seq  
+→ QC & Clustering (1)  
+→ Spatial Integration (2)  
+→ Pathway Enrichment (3)  
+→ Cell–Cell Interaction Inference (4)  
+→ Differential Communication Analysis (5)  
+
+# Visium analysis
 TBA
 ```
 Marco Campisi1, Tatsuya Osaki2†, Ian Dryg3,4†, Carla Stornante1,5, Jacqueline Wolff3, Jason Weirather3,4, Nicholas Weaver3, Mubin Tarannum1, Ian Gillanders1, Alan Bers1, Eden Bobilev1, Maia Shea Lineberry1, Pieter Schol1#, Minyue Chen1#, Keiichi Ota1, Sung Rye Park6, Caroline G. Fahey1,7, Tran C. Thai1, Yixiang Li1, Zhaorong Li1, Ze-Hua Li1, Sarah Shelton8, Satomi Hirose9, Clare Padrick1,10, Elena Ivanova1,10, Minh Ha1,10, Shaobo Yang1, Harrison Olszewski3, Sophie Kivlehan1,10, Patrick Lizotte1,10, Kelsey Hagen1,10, Iliana Gjeci1,10, William Haller1,10, Lauren M. Zasadil1,10, Talal El Zarif1, Jacob E. Berchuck11, Erik H. Knelson1#, Elliott J. Brea1,12, Igor Odintsov13, Tianju Liu14, Valeria Chiono5, Bishma Tuladhar1,10, Kenneth Ngo1,10, Emily Rosentrater15, Jeffrey Raizer15, Neil Lineberry15, Mriganka Sur2, Kathleen Pfaff3, Matthew Freedman1, F. Stephen Hodi1,3, Michael Y. Tolstorukov6, Matthew G. Oser1, Michal Sheffer1, Constantine S. Mitsiades1,16,17,18, Michael J. Barnes19, Vicky A. Appleman15, Prafulla C. Gokhale1,10, Roger D. Kamm8,9, Cloud P. Paweletz1,10, Rizwan Romee1,20, Scott Rodig3,13, David A. Barbie1,10,12,16,20*, Navin R. Mahadevan1,13,14*
