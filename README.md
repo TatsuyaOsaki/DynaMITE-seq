@@ -1,8 +1,6 @@
 # R script for M. Campisi et al. Cancer Cell, 44, 1-21 (2026) 
 Repository for the code that was used to process and analyze data collected for "Vascular STING activation facilitates NK cell anti-tumor immunity in small cell lung cancer", M. Campisi et al. Cancer Cell, 44, 1-21 (2026) 
 
-
-
 ## scRNAseq analysis: DynaMITE-seq Single-Cell and Spatial Integration Pipeline
 
 This repository contains a structured analysis workflow for processing
@@ -86,7 +84,6 @@ Inference of cell–cell communication networks using CellChat.
 
 This notebook quantitatively models intercellular communication based on curated ligand–receptor databases.
 
----
 
 ## 5. Cellchat_differential_analysis.ipynb
 
@@ -107,7 +104,7 @@ Comparative analysis of cell–cell communication between biological conditions.
 
 This notebook enables mechanistic interpretation of condition-dependent communication changes.
 
----
+
 ## Pipeline Structure
 
 Raw scRNA-seq  
@@ -120,8 +117,6 @@ Raw scRNA-seq
 # Visium analysis
 ## Visium Spatial Transcriptomics & Neighborhood Analysis Workflow
 This directory contains a structured, stepwise spatial transcriptomics analysis pipeline implemented in Seurat and downstream R-based workflows. The files document preprocessing, annotation refinement, pathway scoring, neighborhood feature extraction, visualization, and differential analysis.
-
----
 
 ### Core Processing
 
@@ -144,7 +139,6 @@ Assignment of MN4 classification labels to spatial spots.
 **16_Navin_Annotations_VA1_VA2.md**  
 Refinement and harmonization between VA1 and VA2 annotation systems.
 
----
 
 ### Pathway & Gene Set Analysis
 
@@ -154,14 +148,11 @@ Gene Set Variation Analysis (GSVA) performed per tissue slice, including object 
 **15_DE_and_GSEA.md**  
 Differential expression analysis followed by Gene Set Enrichment Analysis (GSEA) across defined groups.
 
----
-
 ### Differential Expression Analyses
 
 **07_DE_vasc_MN4_and_Tumor_MHCI.md**  
 Differential expression comparisons between vascular MN4 subsets and tumor MHCI-defined regions.
 
----
 
 ### Neighborhood Feature Engineering & Analysis
 
@@ -180,7 +171,6 @@ Focused visualization of vascular MN4-associated neighborhoods.
 **14_Visualize_Neighborhoods_Tumor_MHCI.md**  
 Visualization of tumor MHCI-associated spatial neighborhoods.
 
----
 
 ### System Files
 
@@ -190,7 +180,6 @@ macOS system metadata file (not required for analysis).
 **.Rhistory**  
 R session command history (local analysis record).
 
----
 
 ## Overall Analytical Flow
 
