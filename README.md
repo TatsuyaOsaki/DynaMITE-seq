@@ -1,4 +1,4 @@
-## scRNAseq, Cellchat, and Visium: R script for M. Campisi et al. Cancer Cell, 44, 1-21 (2026) 
+## R script for M. Campisi et al. Cancer Cell, 44, 1-21 (2026) 
 Repository for the code that was used to process and analyze data collected for "Vascular STING activation facilitates NK cell anti-tumor immunity in small cell lung cancer", M. Campisi et al. Cancer Cell, 44, 1-21 (2026) 
 
 
